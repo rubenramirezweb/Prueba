@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header style={styles.header}>
-      <h1 style={styles.title}>Mini Uber Eats</h1>
+      <h1 style={styles.title}>ClickRest</h1>
       <nav>
         <ul style={styles.navList}>
           <li><Link to="/" style={styles.link}>Inicio</Link></li>
+          <li><Link to="/products" style={styles.link}>Productos</Link></li>
           <li><Link to="/cart" style={styles.link}>Carrito</Link></li>
           <li><Link to="/checkout" style={styles.link}>Checkout</Link></li>
         </ul>
