@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hola Programadores!</h1>
         <Header />
+        {/* <h1>Hola Programadores!</h1> */}
       </div>
       
     </>
